@@ -25,7 +25,7 @@ categories : ['react']
 Flux 구조는 페이스북에 의해 소개되고 유지되어 왔다. Flux는 범 방향적인 데이터 흐름을 제공한다.  전체적인 구조는 아래와 같다.
 
 
-![react-structure](/2021/05/14/about-react/react-structure.png)
+![react-structure](/image/react-structure.png)
 
 
 Flux의 핵심 개념은 저장소(store)를 갱신하려면 중앙 Dispatcher에 의해 조율되는 행위(action)를 만들어야 한다.  그리고 뷰는 변경된 저장소에 따라 다시 갱신된다. 뷰를 구성하는 모든 컴포넌트들은 저장소에 보관되어 있으며 복제되지 않는다. 복제되지 않는 컴포넌트의 의미는 앱의 전체 영역에 동일한 상태 변화를 동기화할 필요가 없다는 의미이다. 따라서 저장소 내의 컴포넌트만 갱신되면 앱 전체에 변경된 내용이 보여지게 된다. 
