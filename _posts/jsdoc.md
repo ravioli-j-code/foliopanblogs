@@ -1,7 +1,8 @@
 ---
 title: JSDoc
-date : 2021-05-15
+date : 2021-05-15 11:12:11
 categories : ['javascript']
+
 ---
 
 JSDoc 은 java에서 사용되는 javadoc과 마찬가지로 자바스크립트의 소스에 기술된 주석을 정리해주는 라이브러리입니다.  JSDoc 사이트(https://jsdoc.app/)에 들어가보면 지원되는 태그들이 정의되어 있습니다. Intellij 나 이클립스 등의 개발 플랫폼에서 해당 태그들을 템플릿으로 정리하여 주석을 작성하면 해당 내용을 문서화할 수 있습니다.
